@@ -2,7 +2,7 @@
 
     require_once "funcionario.php";
 
-    class Cargo extends Funcionario {
+    class Balconista extends Funcionario{
         public $salario;
 
         public function __construct($nomeHumano, $idade, $endereco, $contato, $cargo, $salario) {
@@ -11,6 +11,6 @@
         }
 
         public function falarHumano() {
-            return "O {$this->nomeHumano}, tem a função de {$this->cargo} na clínica e ganha R${$this->salario}";
+            return "O {$this->nomeHumano}, tem a função de {$this->cargo} na clínica veterinaria e ganha R$ {$this->salario} \n";
         }
     }

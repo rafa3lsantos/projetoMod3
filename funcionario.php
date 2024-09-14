@@ -11,6 +11,6 @@
         }
 
         public function falarHumano() {
-            return "O {$this->nomeHumano}, tem a função de {$this->cargo} na clínica";
+            return "O {$this->nomeHumano}, tem a função de {$this->cargo} na clínica veterinaria \n";
         }
     }
